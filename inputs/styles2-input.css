@@ -1,0 +1,98 @@
+/* Inputs Main */
+.input-container {
+  margin: 3rem;
+}
+
+.input-main-heading {
+  color: yellow;
+}
+.input-snippet iframe {
+  margin: 1rem 0rem;
+  width: 564px;
+  height: 200px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+.input-sub {
+  margin: 1rem 0rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.input-snippet {
+  margin: 1rem 0rem;
+}
+.standard-input {
+  color: yellow;
+  margin: 1rem 0rem;
+}
+
+.list-main-area {
+  background-color: white;
+  padding: 1rem;
+}
+
+.primary-inputs {
+  border: 1px black solid;
+  display: inline-block;
+}
+.primary-inputs div {
+  margin: 1rem;
+}
+
+.email-input {
+  border: none;
+  border-bottom: 2px solid;
+}
+
+.email-input::placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.password-input {
+  border: none;
+  border-bottom: 2px solid;
+}
+
+.password-input::placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+/* border: 2px solid red;
+border-radius: 4px; */
+
+.error-inputs {
+  border: 1px black solid;
+  display: inline-block;
+}
+
+.error-inputs div {
+  margin: 1rem 1rem 0rem 1rem;
+}
+.error-email-input {
+  border: none;
+  border-bottom: 2px solid;
+}
+
+.error-email-input::placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.error-password-input {
+  border: none;
+  border-bottom: 2px solid;
+}
+
+.error-password-input::placeholder {
+  font-weight: bold;
+  color: black;
+}
+
+.input-message {
+  margin-top: 0rem;
+  color: rgb(224, 2, 2);
+  font-weight: bolder;
+}
