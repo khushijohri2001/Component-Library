@@ -1,0 +1,55 @@
+/* Avatars Main */
+.avatars-container {
+  margin: 3rem;
+}
+
+.avatars-main-heading {
+  color: yellow;
+}
+.avatars-snippet iframe {
+  margin: 1rem 0rem;
+  width: 450px;
+  height: 200px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+.avatars-sub {
+  margin: 1rem 0rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.avatars-snippet {
+  margin: 1rem 0rem;
+}
+.standard-avatars {
+  color: yellow;
+  margin: 1rem 0rem;
+}
+.avatars {
+  display: flex;
+}
+
+img {
+  width: 2rem;
+}
+
+.larger-img {
+  width: 12rem;
+}
+
+.large-img {
+  width: 10rem;
+}
+
+.medium-img {
+  width: 8rem;
+}
+
+.small-img {
+  width: 6rem;
+}
+
+.smaller-img {
+  width: 4rem;
+}
