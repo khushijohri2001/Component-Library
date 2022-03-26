@@ -4,8 +4,9 @@
 }
 
 .buttons-main-heading {
-  color: yellow;
+  color: var(--forth-color);
 }
+
 .buttons-snippet iframe {
   margin: 1rem 0rem;
   width: 564px;
@@ -14,28 +15,33 @@
   transform: scale(1);
   overflow: hidden;
 }
+
 .buttons-sub {
   margin: 1rem 0rem;
-  color: white;
+  color: var(--ternary-color);
   font-size: 1.2rem;
 }
+
 .buttons-snippet {
   margin: 1rem 0rem;
 }
+
 .standard-buttons {
-  color: yellow;
+  color: var(--forth-color);
   margin: 1rem 0rem;
 }
+
 .buttons {
   display: flex;
 }
 
 .all-button-container {
-  background-color: white;
+  background-color: var(--ternary-color);
   display: inline-block;
   padding: 1.2rem;
   border-radius: 1rem;
 }
+
 .button-design {
   box-sizing: border-box;
   padding: 0.5rem 0.5rem;
@@ -49,8 +55,8 @@
 }
 
 .primary-btn {
-  background-image: linear-gradient(to right, #2adeeb, #a517ba);
-  color: white;
+  background-image: var(--background-main-color);
+  color: var(--ternary-color);
   text-align: center;
   font-weight: bolder;
   border: none;
@@ -61,10 +67,10 @@
 }
 
 .secondary-btn {
-  background: linear-gradient(to right, #2adeeb, #a517ba);
+  background: var(--background-main-color);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  border: 2px solid #2adeeb;
+  border: 2px solid var(--secondary-color);
   text-align: center;
   font-weight: bolder;
 }
@@ -75,29 +81,31 @@
 
 .link-btn {
   text-decoration: underline;
-  text-decoration-color: #2adeeb;
+  text-decoration-color: var(--secondary-color);
   text-decoration-thickness: 0.1rem;
   background-color: Transparent;
-  color: #a517ba;
+  color: --primary-color;
   text-align: center;
   font-weight: bolder;
   border: none;
 }
 
 .link-btn:hover {
-  text-decoration-color: #a517ba;
-  background-color: #f8d1ff;
-  color: #2adeeb;
+  text-decoration-color: --primary-color;
+  background-color: var(--ternary-color);
+  color: var(--secondary-color);
 }
 
 .icon-container {
   display: flex;
   gap: 0.4rem;
 }
+
 .icon-btn1 {
   background-color: transparent;
   border: none;
 }
+
 .icon-btn2 {
   background-color: transparent;
   border: none;
@@ -111,23 +119,25 @@
   background-color: transparent;
   border: none;
 }
+
 .icon-btn1:hover {
-  background-color: rgb(216, 1, 1);
+  background-color: var(--sixth-color);
 }
 
 .heart {
-  color: rgb(216, 1, 1);
+  color: var(--sixth-color);
 }
+
 .heart:hover {
-  color: white;
+  color: var(--ternary-color);
 }
 
 .icon-style:hover {
-  background-color: black;
+  background-color: var(--seventh-color);
 }
 
 .float-hover:hover {
-  color: white;
+  color: var(--ternary-color);
 }
 
 .cart-icon-link:hover {
@@ -135,10 +145,10 @@
 }
 
 .icon-text-btn {
-  background-image: linear-gradient(to right, #2adeeb, #a517ba);
+  background-image: var(--background-main-color);
   border-radius: 1.5rem;
   border: none;
-  color: white;
+  color: var(--ternary-color);
   display: block;
   padding: 0.5rem 1rem;
   font-weight: bolder;
@@ -146,10 +156,10 @@
 }
 
 .icon-text-btn:hover {
-  background: -webkit-linear-gradient(to right, #2adeeb, #a517ba);
+  background: var(--backgrund-secondary-color);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 2px #a517ba solid;
+  border: 2px var(--primary-color) solid;
 }
 
 .cart-icon {
