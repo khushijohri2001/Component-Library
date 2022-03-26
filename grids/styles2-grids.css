@@ -1,0 +1,151 @@
+/* Grids Main */
+.grids-container {
+  margin: 3rem;
+}
+
+.grids-main-heading {
+  color: yellow;
+}
+.grids-snippet iframe {
+  margin: 1rem 0rem;
+  width: 564px;
+  height: 200px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+.grids-sub {
+  margin: 1rem 0rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.grids-snippet {
+  margin: 1rem 0rem;
+}
+.standard-grids {
+  color: yellow;
+  margin: 1rem 0rem;
+}
+
+/* grid-2 */
+.deliver-container {
+  display: grid;
+  grid-auto-flow: column;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  background-color: #029aa8;
+  color: white;
+  font-size: 1.2rem;
+  box-shadow: 3px 4px 5px #5e5e5e;
+}
+
+.deliver-container:hover {
+  transform: scale(1.02);
+}
+
+.bold-name {
+  font-weight: 900;
+}
+
+.change-btn {
+  font-weight: bold;
+  padding: 0.5rem;
+  border-radius: 0.6rem;
+  border: 2px white solid;
+  background-color: #029aa8;
+  color: white;
+}
+
+.change-btn:hover {
+  background-color: white;
+  color: #029aa8;
+}
+
+/* grid-3 */
+
+.products-container-grid {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: 18rem 18rem 18rem;
+  grid-template-rows: 32rem 32rem 32rem;
+}
+
+.grid3-container {
+  background-color: #9ee5eb;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  position: relative;
+  box-shadow: 4px 8px 10px #9b9b9b;
+}
+
+.save-badge-grid {
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  border: 3px black solid;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product-img-grid {
+  height: 16rem;
+  width: 14rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 4px 5px #5c5c5c;
+}
+
+.product-name-grid {
+  padding-top: 1rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.product-description-grid {
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.price-grid {
+  font-size: 1.8rem;
+  padding-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.strike-price-grid {
+  text-decoration: line-through;
+  color: rgb(117, 117, 117);
+  font-weight: normal;
+}
+.product-discount-grid {
+  color: #78068a;
+}
+.button-link {
+  text-decoration: none;
+}
+.add-to-cart-grid {
+  background-image: linear-gradient(to right, #2adeeb, #a517ba);
+  border-radius: 1.5rem;
+  border: none;
+  color: white;
+  display: block;
+  padding: 0.5rem 0.6rem;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+}
+
+.cart-icon-grid {
+  padding-right: 0.8rem;
+  height: 1.2rem;
+}
+
+.grid3-container:hover {
+  transform: scale(1.02);
+}
