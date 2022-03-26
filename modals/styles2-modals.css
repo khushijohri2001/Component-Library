@@ -1,0 +1,67 @@
+/* Modals Main */
+.modal-container {
+  margin: 3rem;
+}
+
+.modal-main-heading {
+  color: yellow;
+}
+.modal-snippet iframe {
+  margin: 1rem 0rem;
+  width: 564px;
+  height: 200px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+.modal-sub {
+  margin: 1rem 0rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.modal-snippet {
+  margin: 1rem 0rem;
+}
+.standard-modal {
+  color: yellow;
+  margin: 1rem 0rem;
+}
+.modals {
+  background-color: white;
+  padding: 0.2rem;
+}
+.top {
+  display: flex;
+  border-bottom: 0.1px rgb(109, 109, 109) solid;
+}
+
+.card-title {
+  flex-grow: 1;
+}
+
+.middle {
+  padding-top: 16px;
+  padding-bottom: 16px;
+}
+
+.bottom {
+  display: flex;
+  gap: 10px;
+  justify-content: flex-end;
+}
+.child-one {
+  background-color: rgb(52, 158, 190);
+  padding: 8px;
+  color: white;
+  border-radius: 4px;
+  width: 40px;
+  text-align: center;
+}
+.child-two {
+  background-color: rgb(52, 158, 190);
+  padding: 8px;
+  color: white;
+  border-radius: 4px;
+  width: 40px;
+  text-align: center;
+}

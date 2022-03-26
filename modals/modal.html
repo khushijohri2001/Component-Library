@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Modal</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../home/styles.css" />
+    <link rel="stylesheet" href="./styles2-modals.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <!-- Header -->
+      <header>
+        <a href="../index.html">
+          <img src="../images/logo.svg" class="header-logo" />
+        </a>
+        <div class="header-title"><h1>GirlifyCoder Component Library</h1></div>
+        <div class="header-icons">
+          <a href="https://github.com/khushijohri2001"
+            ><img src="../images/github.svg"
+          /></a>
+          <small>Source Code</small>
+        </div>
+      </header>
+
+      <!-- Left-Aside -->
+      <left-aside
+        ><section class="drawer-nav">
+          <ul class="nav-list-main">
+            <li class="home">
+              <a href="../index.html">Home</a>
+            </li>
+
+            <li class="components">
+              <h3 class="list-components">Components</h3>
+              <ul class="nav-list-sub">
+                <li><a href="../alert/alert.html">Alert</a></li>
+                <li><a href="../avatars/avatars.html">Avatars</a></li>
+                <li><a href="../badges/badges.html">Badges</a></li>
+                <li><a href="../buttons/button.html">Button</a></li>
+                <li><a href="../cards/card.html">Card</a></li>
+                <li><a href="../grids/grids.html">Grids</a></li>
+                <li><a href="../responsive-images/images.html">Images</a></li>
+                <li><a href="../inputs/inputs.html">Inputs</a></li>
+                <li><a href="../list/list.html">List</a></li>
+                <li><a href="./modal.html" class="active-link">Modals</a></li>
+                <li>
+                  <a href="../navigation/navigation.html">Navigation</a>
+                </li>
+                <li><a href="../rating/rating.html">Rating</a></li>
+                <li><a href="../snackbar/snackbar.html">Snackbar</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section>
+      </left-aside>
+
+      <!-- Main -->
+      <main>
+        <div class="modal-container">
+          <h1 class="modal-main-heading">MODALS</h1>
+          <p class="modal-sub">
+            Use Bootstrap’s JavaScript modal plugin to add dialogs to your site for lightboxes, user notifications, or completely custom content.
+          </p>
+          <hr color="yellow" size="1" />
+          <div class="modal-snippet">
+            <iframe
+  src="https://carbon.now.sh/embed?bg=rgba%28255%2C255%2C255%2C1%29&t=seti&wt=none&l=htmlmixed&width=680&ds=true&dsyoff=20px&dsblur=68px&wc=true&wa=true&pv=56px&ph=52px&ln=false&fl=1&fm=Hack&fs=10px&lh=140%25&si=false&es=1x&wm=false&code=%253B%253Cdiv%2520class%253D%2522modals%2522%253E%250A%2520%2520%253Cdiv%2520class%253D%2522modal-container%2522%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522top%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522card-title%2522%253ECard%2520Title%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522cross%2522%253EX%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522middle%2522%253E%250A%2520%2520%2520%2520%2520%2520Lorem%252C%2520ipsum%2520dolor%2520sit%2520amet%2520consectetur%2520adipisicing%2520elit.%2520Autem%2520sequi%250A%2520%2520%2520%2520%2520%2520magni%2520est%2520culpa%2520consequatur%2520sunt%2520id%2520praesentium%2520accusantium%2520aspernatur%250A%2520%2520%2520%2520%2520%2520cumque%252C%2520ullam%2520nesciunt%2520illum%252C%2520tempora%2520animi%2520quo%2520pariatur%252C%2520veritatis%250A%2520%2520%2520%2520%2520%2520nostrum%2520vitae%253F%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253Cdiv%2520class%253D%2522bottom%2522%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child-one%2522%253EYes%253C%252Fdiv%253E%250A%2520%2520%2520%2520%2520%2520%253Cdiv%2520class%253D%2522child-two%2522%253ENo%253C%252Fdiv%253E%250A%2520%2520%2520%2520%253C%252Fdiv%253E%250A%2520%2520%253C%252Fdiv%253E%250A%253C%252Fdiv%253E%250A"
+  sandbox="allow-scripts allow-same-origin">
+</iframe>
+          </div>
+          <hr color="yellow" size="1" />
+          <div class="standard-modal" id="standard-modal-area">
+            <h2>Standard Modals</h2>
+          </div>
+          
+          <div class="modals">
+            <div class="modal-container">
+              <div class="top">
+                <div class="card-title">Card Title</div>
+                <div class="cross">X</div>
+              </div>
+              <div class="middle">
+                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem sequi
+                magni est culpa consequatur sunt id praesentium accusantium aspernatur
+                cumque, ullam nesciunt illum, tempora animi quo pariatur, veritatis
+                nostrum vitae?
+              </div>
+              <div class="bottom">
+                <div class="child-one">Yes</div>
+                <div class="child-two">No</div>
+              </div>
+            </div>
+          </div>
+          
+      </main>
+
+      <right-aside>
+        <div class="right-aside-container">
+          <ul class="nav-list-main">
+            <li>
+              <h3 class="on-this-page">On this page</h3>
+              <ul class="nav-list-sub right-list">
+                <li><a href="#standard-modals-area">Standard Modals</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </right-aside>
+    </div>
+
+    <script src="./modals.js"></script>
+  </body>
+</html>
