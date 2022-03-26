@@ -1,0 +1,153 @@
+body {
+  font-family: "Comforter Brush", cursive;
+  font-family: "PT Serif", serif;
+}
+
+* {
+  margin: 0rem;
+  box-sizing: border-box;
+  --background-main-color: linear-gradient(to right, #21daf7, #9c00c9);
+  --primary-color: #9c00c9;
+  --secondary-color: #21daf7;
+  --ternary-color: white;
+  --forth-color: yellow;
+  --fifth-color: #0a4852;
+  --shadow-color: #333333;
+}
+
+.main-container {
+  background-image: var(--background-main-color);
+  display: grid;
+  height: auto;
+  width: auto;
+  grid-template-columns: 200px 1fr 200px;
+  grid-template-areas:
+    "header header header"
+    "left-aside main right-aside"
+    "left-aside main right-aside"
+    "left-aside main right-aside"
+    "left-aside main right-aside";
+}
+
+button {
+  cursor: pointer;
+}
+
+/* Header */
+header {
+  grid-area: header;
+  box-shadow: 0px 4px 7px #333333;
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  position: sticky;
+}
+.header-logo {
+  width: 7rem;
+  height: auto;
+}
+.header-title {
+  text-align: center;
+  flex-grow: 1;
+  color: white;
+}
+
+.header-icons img {
+  height: 2rem;
+}
+
+.header-icons {
+  display: flex;
+  flex-direction: column;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.active-link {
+  font-weight: bolder;
+  color: rgb(105, 105, 105);
+}
+
+/* Left-Aside */
+left-aside {
+  grid-area: left-aside;
+  box-shadow: 0px 4px 7px #333333;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+.nav-list-sub li:hover {
+  transform: scale(1.1);
+}
+
+li,
+ul {
+  list-style: none;
+}
+
+.drawer-nav {
+  padding-right: 2rem;
+  border-radius: 1rem;
+  padding-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+.home {
+  margin-bottom: -1rem;
+  font-size: 1.2rem;
+}
+
+.home:hover {
+  transform: scale(1.1);
+}
+
+.nav-list-main .home,
+.get-started,
+.list-components,
+.on-this-page {
+  padding: 0.7rem;
+}
+
+.nav-list-sub {
+  margin: -1rem 0rem;
+  font-size: 1.2rem;
+}
+
+.get-started {
+  font-size: 1.3rem;
+  margin-bottom: 0.3rem;
+  color: var(--fifth-color);
+}
+
+.list-components {
+  font-size: 1.3rem;
+  margin: 0.4rem 0rem;
+  color: var(--fifth-color);
+}
+
+/* Right-Aside */
+right-aside {
+  grid-area: right-aside;
+  box-shadow: 0px 4px 6px #333333;
+}
+
+.right-aside-container {
+  margin-top: 2rem;
+}
+.on-this-page {
+  font-size: 1.3rem;
+  margin-bottom: 0.5rem;
+  color: var(--secondary-color);
+}
+
+.right-list {
+  font-size: 1rem;
+  margin: 0.3rem 0rem;
+}
+
+.right-list li {
+  padding: 0.3rem 0rem;
+}

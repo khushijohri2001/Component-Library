@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Home</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./home/styles.css" />
+    <link rel="stylesheet" href="./home/styles2-index.css" />
+  </head>
+
+  <body>
+    <div class="main-container">
+      <!-- Header -->
+      <header>
+        <a href="index.html">
+          <img src="./images/logo.svg" class="header-logo" />
+        </a>
+        <div class="header-title"><h1>GirlifyCoder Component Library</h1></div>
+        <div class="header-icons">
+          <a href="https://github.com/khushijohri2001"
+            ><img src="./images/github.svg"
+          /></a>
+          <small>Source Code</small>
+        </div>
+      </header>
+
+      <!-- Left-Aside -->
+      <left-aside
+        ><section class="drawer-nav">
+          <ul class="nav-list-main">
+            <li class="home">
+              <a href="index.html" class="active-link">Home</a>
+            </li>
+            <li></li>
+            <li class="components">
+              <h3 class="list-components">Components</h3>
+              <ul class="nav-list-sub">
+                <li><a href="./alert/alert.html">Alert</a></li>
+                <li><a href="./avatars/avatars.html">Avatars</a></li>
+                <li><a href="./badges/badges.html">Badges</a></li>
+                <li><a href="./buttons/button.html">Button</a></li>
+                <li><a href="./cards/card.html">Card</a></li>
+                <li><a href="./grids/grids.html">Grids</a></li>
+                <li><a href="./responsive-images/images.html">Images</a></li>
+                <li><a href="./inputs/inputs.html">Inputs</a></li>
+                <li><a href="./list/list.html">List</a></li>
+                <li><a href="./modals/modal.html">Modals</a></li>
+                <li>
+                  <a href="./navigation/navigation.html">Navigation</a>
+                </li>
+                <li><a href="./rating/rating.html">Rating</a></li>
+                <li><a href="./snackbar/snackbar.html">Snackbar</a></li>
+              </ul>
+            </li>
+          </ul>
+        </section></left-aside
+      >
+
+      <!-- Main -->
+      <main>
+        <div class="home-main-container" id="home-area">
+          <div class="home-content">
+            <p class="home-main-content">Drop Your Components Easily</p>
+            <p class="home-sub-content">
+              It has well-organized components and documentation that aid
+              developers in producing high-quality applications in less time.
+            </p>
+
+            <a href="./alert/alert.html">
+              <button class="get-started-btn primary-btn button-design">
+                Get Started
+              </button>
+            </a>
+          </div>
+          <div class="home-img"><img src="./images/home.svg" alt="" /></div>
+        </div>
+      </main>
+
+      <right-aside>
+        <ul class="nav-list-main">
+          <li>
+            <h3 class="on-this-page">On this page</h3>
+            <ul class="nav-list-sub">
+              <li><a href="home-area">Get Started</a></li>
+            </ul>
+          </li>
+        </ul>
+      </right-aside>
+    </div>
+    <script src="./home/index.js"></script>
+  </body>
+</html>
