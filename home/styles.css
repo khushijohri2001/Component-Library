@@ -36,7 +36,7 @@ button {
 /* Header */
 header {
   grid-area: header;
-  box-shadow: 0px 4px 7px #333333;
+  box-shadow: 0px 4px 7px var(--shadow-color);
   padding: 1rem;
   display: flex;
   gap: 1rem;
@@ -50,7 +50,7 @@ header {
 .header-title {
   text-align: center;
   flex-grow: 1;
-  color: white;
+  color: var(--ternary-color);
 }
 
 .header-icons img {
@@ -72,12 +72,12 @@ header {
 /* Left-Aside */
 left-aside {
   grid-area: left-aside;
-  box-shadow: 0px 4px 7px #333333;
+  box-shadow: 0px 4px 7px var(--shadow-color);
 }
 
 a {
   text-decoration: none;
-  color: white;
+  color: var(--ternary-color);
 }
 .nav-list-sub li:hover {
   transform: scale(1.1);
@@ -131,7 +131,7 @@ ul {
 /* Right-Aside */
 right-aside {
   grid-area: right-aside;
-  box-shadow: 0px 4px 6px #333333;
+  box-shadow: 0px 4px 6px var(--shadow-color);
 }
 
 .right-aside-container {

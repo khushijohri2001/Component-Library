@@ -9,14 +9,14 @@ main {
 }
 
 .home-main-content {
-  color: yellow;
+  color: var( --forth-color);
   margin: 1rem 0rem 0rem 3rem;
   font-size: 2.6rem;
   font-weight: bolder;
 }
 
 .home-sub-content {
-  color: white;
+  color: var(--ternary-color);
   font-size: 1.5rem;
   margin: 1rem 3rem 1rem 3rem;
 }
@@ -24,7 +24,7 @@ main {
 .get-started-btn {
   width: 15%;
   margin: 0.5rem 0rem 1rem 3rem;
-  box-shadow: 0px 4px 7px #333333;
+  box-shadow: 0px 4px 7px var(--shadow-color);
 }
 
 .button-design {
@@ -34,8 +34,8 @@ main {
 }
 
 .primary-btn {
-  background-image: linear-gradient(to right, #2adeeb, #a517ba);
-  color: white;
+  background-image: var(--background-main-color);
+  color: var(--ternary-color);
   text-align: center;
   font-weight: bolder;
   border: none;
