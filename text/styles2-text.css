@@ -1,0 +1,49 @@
+/* text Main */
+.text-container {
+    margin: 3rem;
+}
+
+.text-main-heading {
+    color: var(--forth-color);
+}
+
+.text-snippet iframe {
+    margin: 1rem 0rem;
+    width: 300px;
+    height: 300px;
+    border: 0;
+    transform: scale(1);
+    overflow: hidden;
+}
+
+.text-sub {
+    margin: 1rem 0rem;
+    color: var(--ternary-color);
+    font-size: 1.2rem;
+}
+
+.text-snippet {
+    margin: 1rem 0rem;
+}
+
+.standard-text {
+    color: var(--forth-color);
+    margin: 1rem 0rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--ternary-color);
+    padding: 1rem;
+    gap:10px;
+}
+
+
+h2 {
+    text-align: center;
+}
+
+h3 {
+    color: rgb(136, 136, 136);
+}
