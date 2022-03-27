@@ -1,7 +1,7 @@
 # GirlifyCoder-Component-Library
 A Component Library for all the components to be used in further projects. It include components like Buttons, Images, List, Snackbar, Alert and  many more.
 
-Live Link: [Quiz Click](https://quiz-click-official.netlify.app/)
+Live Link: [GirlifyCoder-Component-Library](https://girlifycoder-component-library.netlify.app/)
 
 ## Features
 - Beautiful UI which is easy to use and play.
