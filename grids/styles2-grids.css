@@ -4,7 +4,7 @@
 }
 
 .grids-main-heading {
-  color: yellow;
+  color: var(--forth-color);
 }
 .grids-snippet iframe {
   margin: 1rem 0rem;
@@ -16,14 +16,14 @@
 }
 .grids-sub {
   margin: 1rem 0rem;
-  color: white;
+  color: var(--ternary-color);
   font-size: 1.2rem;
 }
 .grids-snippet {
   margin: 1rem 0rem;
 }
 .standard-grids {
-  color: yellow;
+  color: var(--forth-color);
   margin: 1rem 0rem;
 }
 
@@ -34,7 +34,7 @@
   border-radius: 0.5rem;
   padding: 1rem;
   background-color: #029aa8;
-  color: white;
+  color: var(--ternary-color;
   font-size: 1.2rem;
   box-shadow: 3px 4px 5px #5e5e5e;
 }
@@ -51,13 +51,13 @@
   font-weight: bold;
   padding: 0.5rem;
   border-radius: 0.6rem;
-  border: 2px white solid;
+  border: 2px var(--ternary-color) solid;
   background-color: #029aa8;
-  color: white;
+  color: var(--ternary-color);
 }
 
 .change-btn:hover {
-  background-color: white;
+  background-color: var(--ternary-color);
   color: #029aa8;
 }
 
@@ -132,7 +132,7 @@
   background-image: linear-gradient(to right, #2adeeb, #a517ba);
   border-radius: 1.5rem;
   border: none;
-  color: white;
+  color: var(--ternary-color);
   display: block;
   padding: 0.5rem 0.6rem;
   font-weight: bolder;
