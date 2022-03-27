@@ -4,7 +4,7 @@
 }
 
 .modal-main-heading {
-  color: yellow;
+  color: var(--forth-color);
 }
 .modal-snippet iframe {
   margin: 1rem 0rem;
@@ -16,18 +16,18 @@
 }
 .modal-sub {
   margin: 1rem 0rem;
-  color: white;
+  color: var(--ternary-color);
   font-size: 1.2rem;
 }
 .modal-snippet {
   margin: 1rem 0rem;
 }
 .standard-modal {
-  color: yellow;
+  color: var(--forth-color);
   margin: 1rem 0rem;
 }
 .modals {
-  background-color: white;
+  background-color: var(--ternary-color);
   padding: 0.2rem;
 }
 .top {
@@ -52,7 +52,7 @@
 .child-one {
   background-color: rgb(52, 158, 190);
   padding: 8px;
-  color: white;
+  color: var(--ternary-color);
   border-radius: 4px;
   width: 40px;
   text-align: center;
@@ -60,7 +60,7 @@
 .child-two {
   background-color: rgb(52, 158, 190);
   padding: 8px;
-  color: white;
+  color: var(--ternary-color);
   border-radius: 4px;
   width: 40px;
   text-align: center;
