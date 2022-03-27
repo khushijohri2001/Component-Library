@@ -9,8 +9,8 @@ body {
   --background-main-color: linear-gradient(to right, #21daf7, #9c00c9);
   --primary-color: #9c00c9;
   --secondary-color: #21daf7;
-  --ternary-color: white;
-  --forth-color: yellow;
+  --ternary-color: #FFFFFF ;
+  --forth-color: #FFFF00;
   --fifth-color: #0a4852;
   --shadow-color: #333333;
 }
