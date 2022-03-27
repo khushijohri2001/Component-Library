@@ -1,0 +1,172 @@
+/* Buttons Main */
+.buttons-container {
+  margin: 3rem;
+}
+
+.buttons-main-heading {
+  color: var(--forth-color);
+}
+
+.buttons-snippet iframe {
+  margin: 1rem 0rem;
+  width: 564px;
+  height: 200px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+
+.buttons-sub {
+  margin: 1rem 0rem;
+  color: var(--ternary-color);
+  font-size: 1.2rem;
+}
+
+.buttons-snippet {
+  margin: 1rem 0rem;
+}
+
+.standard-buttons {
+  color: var(--forth-color);
+  margin: 1rem 0rem;
+}
+
+.buttons {
+  display: flex;
+}
+
+.all-button-container {
+  background-color: var(--ternary-color);
+  display: inline-block;
+  padding: 1.2rem;
+  border-radius: 1rem;
+}
+
+.button-design {
+  box-sizing: border-box;
+  padding: 0.5rem 0.5rem;
+  border-radius: 0.9rem;
+  margin: 1rem 0rem;
+}
+
+.button-design-circle {
+  border-radius: 5rem;
+  padding: 0.3rem 0.3rem 0.1rem 0.3rem;
+}
+
+.primary-btn {
+  background-image: var(--background-main-color);
+  color: var(--ternary-color);
+  text-align: center;
+  font-weight: bolder;
+  border: none;
+}
+
+.primary-btn:hover {
+  transform: scale(1.03);
+}
+
+.secondary-btn {
+  background: var(--background-main-color);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  border: 2px solid var(--secondary-color);
+  text-align: center;
+  font-weight: bolder;
+}
+
+.secondary-btn:hover {
+  transform: scale(1.03);
+}
+
+.link-btn {
+  text-decoration: underline;
+  text-decoration-color: var(--secondary-color);
+  text-decoration-thickness: 0.1rem;
+  background-color: Transparent;
+  color: --primary-color;
+  text-align: center;
+  font-weight: bolder;
+  border: none;
+}
+
+.link-btn:hover {
+  text-decoration-color: --primary-color;
+  background-color: var(--ternary-color);
+  color: var(--secondary-color);
+}
+
+.icon-container {
+  display: flex;
+  gap: 0.4rem;
+}
+
+.icon-btn1 {
+  background-color: transparent;
+  border: none;
+}
+
+.icon-btn2 {
+  background-color: transparent;
+  border: none;
+}
+
+.icon-btn2:hover {
+  transform: scale(1.2);
+}
+
+.icon-style {
+  background-color: transparent;
+  border: none;
+}
+
+.icon-btn1:hover {
+  background-color: var(--sixth-color);
+}
+
+.heart {
+  color: var(--sixth-color);
+}
+
+.heart:hover {
+  color: var(--ternary-color);
+}
+
+.icon-style:hover {
+  background-color: var(--seventh-color);
+}
+
+.float-hover:hover {
+  color: var(--ternary-color);
+}
+
+.cart-icon-link:hover {
+  transform: scale(1.03);
+}
+
+.icon-text-btn {
+  background-image: var(--background-main-color);
+  border-radius: 1.5rem;
+  border: none;
+  color: var(--ternary-color);
+  display: block;
+  padding: 0.5rem 1rem;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+
+.icon-text-btn:hover {
+  background: var(--backgrund-secondary-color);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px var(--primary-color) solid;
+}
+
+.cart-icon {
+  padding-right: 0.8rem;
+  height: 1.2rem;
+}
+
+.button-link {
+  text-decoration: none;
+}
