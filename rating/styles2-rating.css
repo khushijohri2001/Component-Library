@@ -1,0 +1,56 @@
+/* Rating Main */
+.rating-container {
+  margin: 3rem;
+  height: 30rem;
+}
+
+.rating-main-heading {
+  color: yellow;
+}
+.rating-snippet iframe {
+  margin: 1rem 0rem;
+  width: 564px;
+  height: 200px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+.rating-sub {
+  margin: 1rem 0rem;
+  color: white;
+  font-size: 1.2rem;
+}
+.rating-snippet {
+  margin: 1rem 0rem;
+}
+.standard-rating {
+  color: yellow;
+  margin: 1rem 0rem;
+}
+
+.rating-star {
+  background-color: rgb(119, 119, 119);
+  display: inline-block;
+  padding: 1rem;
+  border-radius: 1rem;
+}
+
+.star1:hover {
+  color: rgb(255, 217, 0);
+}
+
+.star2:hover {
+  color: rgb(255, 217, 0);
+}
+
+.star3:hover {
+  color: rgb(255, 217, 0);
+}
+
+.star4:hover {
+  color: rgb(255, 217, 0);
+}
+
+.star5:hover {
+  color: rgb(255, 217, 0);
+}

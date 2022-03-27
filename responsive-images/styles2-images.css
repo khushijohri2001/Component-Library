@@ -15,7 +15,7 @@
 }
 .images-sub {
   margin: 1rem 0rem;
-  color: white;
+  color: var(--ternary-color);
   font-size: 1.2rem;
 }
 .images-snippet {
