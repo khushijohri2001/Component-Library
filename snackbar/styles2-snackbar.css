@@ -5,11 +5,11 @@
 }
 
 .snackbar-main-heading {
-  color: yellow;
+  color: var(--forth-color);
 }
 .snackbar-sub {
   margin: 1rem 0rem;
-  color: white;
+  color: var(--ternary-color);
   font-size: 1.2rem;
 }
 .snackbar-snippet iframe {
@@ -21,7 +21,7 @@
   overflow: hidden;
 }
 .standard-snackbar {
-  color: yellow;
+  color: var(--forth-color);
   margin: 1rem 0rem;
 }
 
@@ -38,7 +38,7 @@
 }
 
 .snackbar-content {
-  color: white;
+  color: var(--ternary-color);
   flex-grow: 1;
 }
 
@@ -48,6 +48,6 @@
 }
 
 .snackbar-cross {
-  color: white;
+  color: var(--ternary-color);
   padding-left: 1rem;
 }
