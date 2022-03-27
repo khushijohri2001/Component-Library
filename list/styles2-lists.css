@@ -4,7 +4,7 @@
 }
 
 .lists-main-heading {
-  color: yellow;
+  color: var(--forth-color);
 }
 .lists-snippet iframe {
   margin: 1rem 0rem;
@@ -16,20 +16,20 @@
 }
 .lists-sub {
   margin: 1rem 0rem;
-  color: white;
+  color: var(--ternary-color);
   font-size: 1.2rem;
 }
 .lists-snippet {
   margin: 1rem 0rem;
 }
 .standard-lists {
-  color: yellow;
+  color: var(--forth-color);
   margin: 1rem 0rem;
 }
 
 .spaced-list {
   background-image: linear-gradient(to right, #2adeeb, #a517ba);
-  color: white;
+  color: var(--ternary-color);
   font-size: 1.3rem;
   text-align: center;
 }
