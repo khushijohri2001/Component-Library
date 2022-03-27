@@ -4,7 +4,7 @@
 }
 
 .images-main-heading {
-  color: yellow;
+  color: var(--forth-color);
 }
 .images-snippet iframe {
   width: 564px;
@@ -22,7 +22,7 @@
   margin: 1rem 0rem;
 }
 .standard-images {
-  color: yellow;
+  color: var(--forth-color);
   margin: 1rem 0rem;
 }
 
