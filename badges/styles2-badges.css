@@ -5,7 +5,7 @@
 }
 
 .badges-main-heading {
-  color: yellow;
+  color: var(--forth-color);
 }
 .badges-snippet iframe {
   margin: 1rem 0rem;
@@ -17,14 +17,14 @@
 }
 .badges-sub {
   margin: 1rem 0rem;
-  color: white;
+  color: var(--ternary-color);
   font-size: 1.2rem;
 }
 .badges-snippet {
   margin: 1rem 0rem;
 }
 .standard-badges {
-  color: yellow;
+  color: var(--forth-color);
   margin: 1rem 0rem;
 }
 
@@ -53,7 +53,7 @@
 .badge1 {
   color: black;
   font-size: 1rem;
-  background-color: rgb(231, 231, 231);
+  background-color: var(--ternary-color);
   padding: 0rem 0.3rem;
   border-radius: 2rem;
   position: absolute;
@@ -72,7 +72,7 @@
 .badge2 {
   color: black;
   font-size: 1rem;
-  background-color: rgb(231, 231, 231);
+  background-color: var(--ternary-color);
   padding: 0rem 0.3rem;
   border-radius: 2rem;
   position: absolute;
@@ -91,7 +91,7 @@
 .badge3 {
   color: black;
   font-size: 1rem;
-  background-color: rgb(231, 231, 231);
+  background-color: var(--ternary-color);
   padding: 0rem 0.3rem;
   border-radius: 2rem;
   position: absolute;
