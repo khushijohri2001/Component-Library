@@ -4,7 +4,7 @@
 }
 
 .cards-main-heading {
-  color: yellow;
+  color: var(--forth-color);
 }
 .cards-snippet iframe {
   margin: 1rem 0rem;
@@ -16,14 +16,14 @@
 }
 .cards-sub {
   margin: 1rem 0rem;
-  color: white;
+  color: var(--ternary-color);
   font-size: 1.2rem;
 }
 .cards-snippet {
   margin: 1rem 0rem;
 }
 .standard-cards {
-  color: yellow;
+  color: var(--forth-color);
   margin: 1rem 0rem;
 }
 
@@ -86,7 +86,7 @@
   background-image: linear-gradient(to right, #2adeeb, #a517ba);
   border-radius: 1.3rem;
   border: none;
-  color: white;
+  color: var(--ternary-color);
   display: block;
   padding: 0.5rem 0.6rem;
   font-weight: bolder;
@@ -99,7 +99,7 @@
   background: -webkit-linear-gradient(to right, #2adeeb, #a517ba);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 0.2px white solid;
+  border: 0.2px var(--ternary-color) solid;
 }
 
 .cart-icon1 {
@@ -175,7 +175,7 @@
   background-image: linear-gradient(to right, #2adeeb, #a517ba);
   border-radius: 1.3rem;
   border: none;
-  color: white;
+  color: var(--ternary-color);
   display: block;
   padding: 0.5rem 0.6rem;
   font-weight: bolder;
@@ -188,7 +188,7 @@
   background: -webkit-linear-gradient(to right, #2adeeb, #a517ba);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 0.2px white solid;
+  border: 0.2px var(--ternary-color) solid;
 }
 
 .cart-icon2 {
@@ -261,7 +261,7 @@
   background-image: linear-gradient(to right, #2adeeb, #a517ba);
   border-radius: 1.3rem;
   border: none;
-  color: white;
+  color: var(--ternary-color);
   display: block;
   padding: 0.5rem 0.6rem;
   font-weight: bolder;
@@ -274,7 +274,7 @@
   background: -webkit-linear-gradient(to right, #2adeeb, #a517ba);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 0.2px white solid;
+  border: 0.2px var(--ternary-color) solid;
   padding: 0.5rem 0.6rem;
 }
 
@@ -330,7 +330,7 @@
   background-image: linear-gradient(to right, #2adeeb, #a517ba);
   border-radius: 1.5rem;
   border: none;
-  color: white;
+  color: var(--ternary-color);
   display: block;
   padding: 0.5rem 0.6rem;
   font-weight: bolder;
@@ -342,7 +342,7 @@
   background: -webkit-linear-gradient(to right, #2adeeb, #a517ba);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 2px white solid;
+  border: 2px var(--ternary-color) solid;
 }
 
 .cart-icon4 {
@@ -419,7 +419,7 @@
   background-image: linear-gradient(to right, #2adeeb, #a517ba);
   border-radius: 1.5rem;
   border: none;
-  color: white;
+  color: var(--ternary-color);
   display: block;
   padding: 0.5rem 0.6rem;
   font-weight: bolder;
@@ -432,7 +432,7 @@
   background: -webkit-linear-gradient(to right, #2adeeb, #a517ba);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  border: 2px white solid;
+  border: 2px var(--ternary-color) solid;
 }
 
 .cart-icon5 {
