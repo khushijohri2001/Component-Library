@@ -60,8 +60,6 @@
   color: var(--sixth-color);
 }
 
-/* border: 2px solid red;
-border-radius: 4px; */
 
 .error-inputs {
   border: 1px var(--sixth-color) solid;
