@@ -1,0 +1,445 @@
+/* Cards Main */
+.cards-container {
+  margin: 3rem;
+}
+
+.cards-main-heading {
+  color: var(--forth-color);
+}
+.cards-snippet iframe {
+  margin: 1rem 0rem;
+  width: 564px;
+  height: 200px;
+  border: 0;
+  transform: scale(1);
+  overflow: hidden;
+}
+.cards-sub {
+  margin: 1rem 0rem;
+  color: var(--ternary-color);
+  font-size: 1.2rem;
+}
+.cards-snippet {
+  margin: 1rem 0rem;
+}
+.standard-cards {
+  color: var(--forth-color);
+  margin: 1rem 0rem;
+}
+
+/* card with badge */
+.card1-container {
+  background-color: #9ee5eb;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  position: relative;
+  box-shadow: 4px 8px 10px #9b9b9b;
+}
+
+.save-badge1 {
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  border: 3px black solid;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product-img1 {
+  height: 16rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 4px 5px #5c5c5c;
+}
+
+.product-name1 {
+  padding-top: 1rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.product-description1 {
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.price1 {
+  font-size: 1.8rem;
+  padding-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.strike-price1 {
+  text-decoration: line-through;
+  color: rgb(117, 117, 117);
+  font-weight: normal;
+}
+.product-discount1 {
+  color: #78068a;
+}
+.add-to-cart1 {
+  background-image: linear-gradient(to right, #2adeeb, #a517ba);
+  border-radius: 1.3rem;
+  border: none;
+  color: var(--ternary-color);
+  display: block;
+  padding: 0.5rem 0.6rem;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+}
+
+.add-to-cart1:hover {
+  background: -webkit-linear-gradient(to right, #2adeeb, #a517ba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 0.2px var(--ternary-color) solid;
+}
+
+.cart-icon1 {
+  padding-right: 0.8rem;
+  height: 1.2rem;
+}
+
+.card1-container:hover {
+  transform: scale(1.02);
+}
+
+/* card with text overlay */
+
+.card2-container {
+  background-color: #9ee5eb;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  position: relative;
+  box-shadow: 4px 8px 10px #9b9b9b;
+}
+
+.overlay-img2 {
+  opacity: 0.5;
+}
+
+.overlay-text2 {
+  font-size: 2.3rem;
+  color: #252525;
+  font-weight: bolder;
+  position: absolute;
+  top: 7rem;
+  left: 2rem;
+  z-index: 1;
+}
+
+.product-img2 {
+  height: 16rem;
+  width: 14rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 4px 5px #5c5c5c;
+}
+
+.product-name2 {
+  padding-top: 1rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.product-description2 {
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.price2 {
+  font-size: 1.8rem;
+  padding-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.strike-price2 {
+  text-decoration: line-through;
+  color: rgb(117, 117, 117);
+  font-weight: normal;
+}
+.product-discount2 {
+  color: #78068a;
+}
+.add-to-cart2 {
+  background-image: linear-gradient(to right, #2adeeb, #a517ba);
+  border-radius: 1.3rem;
+  border: none;
+  color: var(--ternary-color);
+  display: block;
+  padding: 0.5rem 0.6rem;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+}
+
+.add-to-cart2:hover {
+  background: -webkit-linear-gradient(to right, #2adeeb, #a517ba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 0.2px var(--ternary-color) solid;
+}
+
+.cart-icon2 {
+  padding-right: 0.8rem;
+  height: 1.2rem;
+}
+
+.card2-container:hover {
+  transform: scale(1.02);
+}
+
+/* Horizontal Card  */
+.card3-container {
+  background-color: #9ee5eb;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  display: flex;
+  width: 28rem;
+  position: relative;
+  box-shadow: 4px 8px 10px #9b9b9b;
+}
+
+.save-badge3 {
+  padding: 0.5rem;
+  border-radius: 1.5rem;
+  border: 3px black solid;
+  font-size: 1.2rem;
+  font-weight: bolder;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.product-img3 {
+  height: 16rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 4px 5px #5c5c5c;
+}
+
+.card-content3 {
+  margin-left: 2rem;
+}
+
+.product-name3 {
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.product-description3 {
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.price3 {
+  font-size: 1.8rem;
+  padding-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.strike-price3 {
+  text-decoration: line-through;
+  color: rgb(117, 117, 117);
+  font-weight: normal;
+}
+.product-discount3 {
+  color: #78068a;
+}
+.add-to-cart3 {
+  background-image: linear-gradient(to right, #2adeeb, #a517ba);
+  border-radius: 1.3rem;
+  border: none;
+  color: var(--ternary-color);
+  display: block;
+  padding: 0.5rem 0.6rem;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8rem;
+}
+
+.add-to-cart3:hover {
+  background: -webkit-linear-gradient(to right, #2adeeb, #a517ba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 0.2px var(--ternary-color) solid;
+  padding: 0.5rem 0.6rem;
+}
+
+.cart-icon3 {
+  padding-right: 0.8rem;
+  height: 1.2rem;
+}
+
+.container:hover {
+  transform: scale(1.02);
+}
+
+/* Card with Text */
+.card4-container {
+  background-color: #9ee5eb;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  position: relative;
+  box-shadow: 4px 8px 10px #9b9b9b;
+}
+
+.product-name4 {
+  padding-top: 1rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.product-description4 {
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.price4 {
+  font-size: 1.8rem;
+  padding-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.strike-price4 {
+  text-decoration: line-through;
+  color: rgb(117, 117, 117);
+  font-weight: normal;
+}
+.product-discount4 {
+  color: #78068a;
+}
+
+.add-to-cart4 {
+  background-image: linear-gradient(to right, #2adeeb, #a517ba);
+  border-radius: 1.5rem;
+  border: none;
+  color: var(--ternary-color);
+  display: block;
+  padding: 0.5rem 0.6rem;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+}
+.add-to-cart4:hover {
+  background: -webkit-linear-gradient(to right, #2adeeb, #a517ba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px var(--ternary-color) solid;
+}
+
+.cart-icon4 {
+  padding-right: 0.8rem;
+  height: 1.2rem;
+}
+
+.card4-container:hover {
+  transform: scale(1.02);
+}
+
+/* Card with dismiss */
+.card5-container {
+  background-color: #9ee5eb;
+  padding: 1rem;
+  border-radius: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  width: 16rem;
+  position: relative;
+  box-shadow: 4px 8px 10px #9b9b9b;
+}
+
+.dismiss5 {
+  padding: 0.6rem;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.dismiss5 img:hover {
+  transform: scale(1.2);
+}
+.dismiss5 img {
+  height: 1.5rem;
+}
+
+.product-img5 {
+  height: 16rem;
+  border-radius: 0.5rem;
+  box-shadow: 3px 4px 5px #5c5c5c;
+}
+
+.product-name5 {
+  padding-top: 1rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+}
+
+.product-description5 {
+  padding-top: 0.3rem;
+  padding-bottom: 1rem;
+  font-size: 1rem;
+}
+
+.price5 {
+  font-size: 1.8rem;
+  padding-bottom: 0.8rem;
+  font-weight: bold;
+}
+
+.strike-price5 {
+  text-decoration: line-through;
+  color: rgb(117, 117, 117);
+  font-weight: normal;
+}
+.product-discount5 {
+  color: #78068a;
+}
+.button-link {
+  text-decoration: none;
+}
+.add-to-cart5 {
+  background-image: linear-gradient(to right, #2adeeb, #a517ba);
+  border-radius: 1.5rem;
+  border: none;
+  color: var(--ternary-color);
+  display: block;
+  padding: 0.5rem 0.6rem;
+  font-weight: bolder;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.1rem;
+}
+
+.add-to-cart5:hover {
+  background: -webkit-linear-gradient(to right, #2adeeb, #a517ba);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  border: 2px var(--ternary-color) solid;
+}
+
+.cart-icon5 {
+  padding-right: 0.8rem;
+  height: 1.2rem;
+}
+
+.card5-container:hover {
+  transform: scale(1.02);
+}
