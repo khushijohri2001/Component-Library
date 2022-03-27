@@ -6,6 +6,7 @@
 .input-main-heading {
   color: var(--forth-color);
 }
+
 .input-snippet iframe {
   margin: 1rem 0;
   width: 564px;
@@ -14,14 +15,17 @@
   transform: scale(1);
   overflow: hidden;
 }
+
 .input-sub {
   margin: 1rem 0rem;
   color: var(--ternary-color);
   font-size: 1.2rem;
 }
+
 .input-snippet {
   margin: 1rem 0rem;
 }
+
 .standard-input {
   color: var(--forth-color);
   margin: 1rem 0;
@@ -36,6 +40,7 @@
   border: 1px var(--sixth-color) solid;
   display: inline-block;
 }
+
 .primary-inputs div {
   margin: 1rem;
 }
@@ -69,6 +74,7 @@
 .error-inputs div {
   margin: 1rem 1rem 0rem 1rem;
 }
+
 .error-email-input {
   border: none;
   border-bottom: 2px solid;
