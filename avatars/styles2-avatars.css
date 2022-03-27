@@ -4,8 +4,9 @@
 }
 
 .avatars-main-heading {
-  color: yellow;
+  color: var(--forth-color);
 }
+
 .avatars-snippet iframe {
   margin: 1rem 0rem;
   width: 450px;
@@ -14,18 +15,22 @@
   transform: scale(1);
   overflow: hidden;
 }
+
 .avatars-sub {
   margin: 1rem 0rem;
-  color: white;
+  color: var(--ternary-color);
   font-size: 1.2rem;
 }
+
 .avatars-snippet {
   margin: 1rem 0rem;
 }
+
 .standard-avatars {
-  color: yellow;
+  color: var(--forth-color);
   margin: 1rem 0rem;
 }
+
 .avatars {
   display: flex;
 }
