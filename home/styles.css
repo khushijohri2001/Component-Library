@@ -104,7 +104,9 @@ ul {
 .home:hover {
   transform: scale(1.1);
 }
-
+.nav-list-sub{
+  padding-top: 0.5rem;
+}
 .nav-list-main .home,
 .get-started,
 .list-components,
