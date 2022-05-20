@@ -36,7 +36,7 @@
 }
 
 .all-button-container {
-  background-color: var(--ternary-color);
+  background-color: var(--fifth-color);
   display: inline-block;
   padding: 1.2rem;
   border-radius: 1rem;
@@ -147,7 +147,6 @@
 .icon-text-btn {
   background-image: var(--background-main-color);
   border-radius: 1.5rem;
-  border: none;
   color: var(--ternary-color);
   display: block;
   padding: 0.5rem 1rem;
@@ -156,9 +155,10 @@
 }
 
 .icon-text-btn:hover {
-  background: var(--backgrund-secondary-color);
+  background: var(--background-secondary-color);
   -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
+  -webkit-text-fill-color: white;
+  -webkit-background-composite: var(--ternary-color);
   border: 2px var(--primary-color) solid;
 }
 

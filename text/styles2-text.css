@@ -3,10 +3,6 @@
     margin: 3rem;
 }
 
-.text-main-heading {
-    color: var(--forth-color);
-}
-
 .text-snippet iframe {
     margin: 1rem 0rem;
     width: 300px;
@@ -40,10 +36,11 @@
 }
 
 
-h2 {
+.heading-text-utility-center {
     text-align: center;
 }
 
 h3 {
     color: rgb(136, 136, 136);
 }
+

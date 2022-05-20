@@ -154,3 +154,7 @@ right-aside {
 .right-list li {
   padding: 0.3rem 0rem;
 }
+
+.heading-text-utility-bigger{
+  color: var(--forth-color);
+}
